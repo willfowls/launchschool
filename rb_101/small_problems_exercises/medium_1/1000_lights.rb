@@ -9,6 +9,7 @@
 # Repeat process until you reach number specified in argument
 # Write method that takes one argument, total number of switches. 
 # Return an array that identifies which light numbers are on after that number of repititions.
+
 def toggle_lights(number)
   switches = (1..number).to_a
   lights_hash = Hash.new(0)
